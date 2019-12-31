@@ -18,6 +18,8 @@ link_libraries(${OPENGL} ${GLEW_LINK} ${GLFW_LINK})
 add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
 
+add_library(STB_IMAGE "src/stb_image.cpp")
+set(LIBS ${LIBS} STB_IMAGE)
 
 configure_file(configuration/root_directory.h.in configuration/root_directory.h)
 include_directories(${CMAKE_BINARY_DIR}/configuration)
@@ -40,7 +42,7 @@ set(1.getting_started
         3.4.shaders_z_exercise1
         3.5.shaders_z_exercise2
         3.6.shaders_z_exercise3
-        #        4.1.textures
+        4.1.textures
         #        4.2.textures_combined
         #        4.3.textures_exercise2
         #        4.4.textures_exercise3
@@ -77,7 +79,8 @@ foreach (CHAPTER ${CHAPTERS})
         set(NAME "${CHAPTER}__${DEMO}")
         add_executable(${NAME} ${SOURCE}
                 includes/glad/glad.h
-                includes/glUtils/shader.h)
+                includes/glUtils/shader.h
+                includes/glUtils/stb_image.h)
 
         target_link_libraries(${NAME} ${LIBS})
 

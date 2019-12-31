@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW 
+CXX_INCLUDES = -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration 
 

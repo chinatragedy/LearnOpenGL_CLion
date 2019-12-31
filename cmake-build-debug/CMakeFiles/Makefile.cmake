@@ -37,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../configuration/root_directory.h.in"
   )
 
 # The corresponding makefile is:
@@ -47,16 +48,19 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "configuration/root_directory.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/1.getting_started__4.1.textures.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.3.shaders_class.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/DependInfo.cmake"
-  "CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake"
+  "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
   )

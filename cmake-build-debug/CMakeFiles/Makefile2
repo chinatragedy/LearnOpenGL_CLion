@@ -53,23 +53,27 @@ CMAKE_BINARY_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-bui
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/1.getting_started__4.1.textures.dir/all
 all: CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/all
+all: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
 all: CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/all
 all: CMakeFiles/1.getting_started__3.3.shaders_class.dir/all
 all: CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all
-all: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
 all: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all
+all: CMakeFiles/STB_IMAGE.dir/all
 all: CMakeFiles/GLAD.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
+clean: CMakeFiles/1.getting_started__4.1.textures.dir/clean
 clean: CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/clean
+clean: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
 clean: CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/clean
 clean: CMakeFiles/1.getting_started__3.3.shaders_class.dir/clean
 clean: CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/clean
-clean: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
 clean: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean
+clean: CMakeFiles/STB_IMAGE.dir/clean
 clean: CMakeFiles/GLAD.dir/clean
 
 .PHONY : clean
@@ -80,9 +84,38 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
+# Target rules for target CMakeFiles/1.getting_started__4.1.textures.dir
+
+# All Build rule for target.
+CMakeFiles/1.getting_started__4.1.textures.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/1.getting_started__4.1.textures.dir/all: CMakeFiles/GLAD.dir/all
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/depend
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target 1.getting_started__4.1.textures"
+.PHONY : CMakeFiles/1.getting_started__4.1.textures.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.getting_started__4.1.textures.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__4.1.textures.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1.getting_started__4.1.textures.dir/rule
+
+# Convenience name for target.
+1.getting_started__4.1.textures: CMakeFiles/1.getting_started__4.1.textures.dir/rule
+
+.PHONY : 1.getting_started__4.1.textures
+
+# clean rule for target.
+CMakeFiles/1.getting_started__4.1.textures.dir/clean:
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/clean
+.PHONY : CMakeFiles/1.getting_started__4.1.textures.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir
 
 # All Build rule for target.
+CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/depend
 	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build
@@ -91,7 +124,7 @@ CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/all: CMakeFiles/GLAD.d
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/rule
@@ -107,9 +140,38 @@ CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/clean:
 .PHONY : CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir
+
+# All Build rule for target.
+CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all: CMakeFiles/STB_IMAGE.dir/all
+CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all: CMakeFiles/GLAD.dir/all
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/depend
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 1.getting_started__3.4.shaders_z_exercise1"
+.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule
+
+# Convenience name for target.
+1.getting_started__3.4.shaders_z_exercise1: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule
+
+.PHONY : 1.getting_started__3.4.shaders_z_exercise1
+
+# clean rule for target.
+CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
+.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir
 
 # All Build rule for target.
+CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/depend
 	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build
@@ -118,7 +180,7 @@ CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/all: CMakeFiles/GLAD.d
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/rule
@@ -137,6 +199,7 @@ CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/clean:
 # Target rules for target CMakeFiles/1.getting_started__3.3.shaders_class.dir
 
 # All Build rule for target.
+CMakeFiles/1.getting_started__3.3.shaders_class.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/1.getting_started__3.3.shaders_class.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/depend
 	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/build
@@ -145,7 +208,7 @@ CMakeFiles/1.getting_started__3.3.shaders_class.dir/all: CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.getting_started__3.3.shaders_class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.3.shaders_class.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1.getting_started__3.3.shaders_class.dir/rule
@@ -164,6 +227,7 @@ CMakeFiles/1.getting_started__3.3.shaders_class.dir/clean:
 # Target rules for target CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir
 
 # All Build rule for target.
+CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) -f CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build.make CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/depend
 	$(MAKE) -f CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build.make CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build
@@ -172,7 +236,7 @@ CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all: CMakeFiles/GLAD
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/rule
@@ -188,36 +252,10 @@ CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/clean:
 .PHONY : CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir
-
-# All Build rule for target.
-CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all: CMakeFiles/GLAD.dir/all
-	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/depend
-	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target 1.getting_started__3.4.shaders_z_exercise1"
-.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule
-
-# Convenience name for target.
-1.getting_started__3.4.shaders_z_exercise1: CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/rule
-
-.PHONY : 1.getting_started__3.4.shaders_z_exercise1
-
-# clean rule for target.
-CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean:
-	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
-.PHONY : CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/clean
-
-#=============================================================================
 # Target rules for target CMakeFiles/1.getting_started__3.1.shaders_uniform.dir
 
 # All Build rule for target.
+CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all: CMakeFiles/STB_IMAGE.dir/all
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all: CMakeFiles/GLAD.dir/all
 	$(MAKE) -f CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build.make CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/depend
 	$(MAKE) -f CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build.make CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build
@@ -226,7 +264,7 @@ CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all: CMakeFiles/GLAD.dir/a
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/rule
@@ -242,13 +280,40 @@ CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean:
 .PHONY : CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/STB_IMAGE.dir
+
+# All Build rule for target.
+CMakeFiles/STB_IMAGE.dir/all:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/depend
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target STB_IMAGE"
+.PHONY : CMakeFiles/STB_IMAGE.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/STB_IMAGE.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/STB_IMAGE.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/STB_IMAGE.dir/rule
+
+# Convenience name for target.
+STB_IMAGE: CMakeFiles/STB_IMAGE.dir/rule
+
+.PHONY : STB_IMAGE
+
+# clean rule for target.
+CMakeFiles/STB_IMAGE.dir/clean:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/clean
+.PHONY : CMakeFiles/STB_IMAGE.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/GLAD.dir
 
 # All Build rule for target.
 CMakeFiles/GLAD.dir/all:
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/depend
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target GLAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target GLAD"
 .PHONY : CMakeFiles/GLAD.dir/all
 
 # Build rule for subdir invocation for target.

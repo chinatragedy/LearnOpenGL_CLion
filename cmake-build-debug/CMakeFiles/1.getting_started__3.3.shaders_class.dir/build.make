@@ -82,6 +82,7 @@ bin/1.getting_started/1.getting_started__3.3.shaders_class: CMakeFiles/1.getting
 bin/1.getting_started/1.getting_started__3.3.shaders_class: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.3.shaders_class: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.3.shaders_class: libGLAD.a
+bin/1.getting_started/1.getting_started__3.3.shaders_class: libSTB_IMAGE.a
 bin/1.getting_started/1.getting_started__3.3.shaders_class: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.3.shaders_class: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.3.shaders_class: CMakeFiles/1.getting_started__3.3.shaders_class.dir/link.txt

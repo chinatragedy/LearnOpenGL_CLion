@@ -82,6 +82,7 @@ bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: CMakeFiles/1.g
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: libGLAD.a
+bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: libSTB_IMAGE.a
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2: CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/link.txt

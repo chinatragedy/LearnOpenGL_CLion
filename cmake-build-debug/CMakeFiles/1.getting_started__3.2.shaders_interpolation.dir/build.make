@@ -82,6 +82,7 @@ bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: CMakeFiles/1
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: libGLAD.a
+bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: libSTB_IMAGE.a
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 bin/1.getting_started/1.getting_started__3.2.shaders_interpolation: CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/link.txt

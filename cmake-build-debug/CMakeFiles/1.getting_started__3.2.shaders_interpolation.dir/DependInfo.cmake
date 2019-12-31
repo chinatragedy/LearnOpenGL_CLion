@@ -13,11 +13,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../includes"
   "../includes/GL"
   "../includes/GLFW"
+  "configuration"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/GLAD.dir/DependInfo.cmake"
+  "/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

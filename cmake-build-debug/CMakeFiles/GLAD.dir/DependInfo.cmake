@@ -13,6 +13,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "../includes"
   "../includes/GL"
   "../includes/GLFW"
+  "configuration"
   )
 
 # Targets to which this target links.

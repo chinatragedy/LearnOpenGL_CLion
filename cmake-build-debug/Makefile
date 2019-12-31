@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 1.getting_started__4.1.textures
+
+# Build rule for target.
+1.getting_started__4.1.textures: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__4.1.textures
+.PHONY : 1.getting_started__4.1.textures
+
+# fast build rule for target.
+1.getting_started__4.1.textures/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/build
+.PHONY : 1.getting_started__4.1.textures/fast
+
+#=============================================================================
 # Target rules for targets named 1.getting_started__3.6.shaders_z_exercise3
 
 # Build rule for target.
@@ -122,6 +135,19 @@ depend:
 1.getting_started__3.6.shaders_z_exercise3/fast:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build
 .PHONY : 1.getting_started__3.6.shaders_z_exercise3/fast
+
+#=============================================================================
+# Target rules for targets named 1.getting_started__3.4.shaders_z_exercise1
+
+# Build rule for target.
+1.getting_started__3.4.shaders_z_exercise1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.4.shaders_z_exercise1
+.PHONY : 1.getting_started__3.4.shaders_z_exercise1
+
+# fast build rule for target.
+1.getting_started__3.4.shaders_z_exercise1/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build
+.PHONY : 1.getting_started__3.4.shaders_z_exercise1/fast
 
 #=============================================================================
 # Target rules for targets named 1.getting_started__3.5.shaders_z_exercise2
@@ -163,19 +189,6 @@ depend:
 .PHONY : 1.getting_started__3.2.shaders_interpolation/fast
 
 #=============================================================================
-# Target rules for targets named 1.getting_started__3.4.shaders_z_exercise1
-
-# Build rule for target.
-1.getting_started__3.4.shaders_z_exercise1: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.4.shaders_z_exercise1
-.PHONY : 1.getting_started__3.4.shaders_z_exercise1
-
-# fast build rule for target.
-1.getting_started__3.4.shaders_z_exercise1/fast:
-	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build
-.PHONY : 1.getting_started__3.4.shaders_z_exercise1/fast
-
-#=============================================================================
 # Target rules for targets named 1.getting_started__3.1.shaders_uniform
 
 # Build rule for target.
@@ -187,6 +200,19 @@ depend:
 1.getting_started__3.1.shaders_uniform/fast:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build.make CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build
 .PHONY : 1.getting_started__3.1.shaders_uniform/fast
+
+#=============================================================================
+# Target rules for targets named STB_IMAGE
+
+# Build rule for target.
+STB_IMAGE: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 STB_IMAGE
+.PHONY : STB_IMAGE
+
+# fast build rule for target.
+STB_IMAGE/fast:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/build
+.PHONY : STB_IMAGE/fast
 
 #=============================================================================
 # Target rules for targets named GLAD
@@ -363,6 +389,33 @@ src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s
 .PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s
 
+src/1.getting_started/4.1.textures/textures.o: src/1.getting_started/4.1.textures/textures.cpp.o
+
+.PHONY : src/1.getting_started/4.1.textures/textures.o
+
+# target to build an object file
+src/1.getting_started/4.1.textures/textures.cpp.o:
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.o
+.PHONY : src/1.getting_started/4.1.textures/textures.cpp.o
+
+src/1.getting_started/4.1.textures/textures.i: src/1.getting_started/4.1.textures/textures.cpp.i
+
+.PHONY : src/1.getting_started/4.1.textures/textures.i
+
+# target to preprocess a source file
+src/1.getting_started/4.1.textures/textures.cpp.i:
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.i
+.PHONY : src/1.getting_started/4.1.textures/textures.cpp.i
+
+src/1.getting_started/4.1.textures/textures.s: src/1.getting_started/4.1.textures/textures.cpp.s
+
+.PHONY : src/1.getting_started/4.1.textures/textures.s
+
+# target to generate assembly for a file
+src/1.getting_started/4.1.textures/textures.cpp.s:
+	$(MAKE) -f CMakeFiles/1.getting_started__4.1.textures.dir/build.make CMakeFiles/1.getting_started__4.1.textures.dir/src/1.getting_started/4.1.textures/textures.cpp.s
+.PHONY : src/1.getting_started/4.1.textures/textures.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -390,6 +443,33 @@ src/glad.c.s:
 	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
+src/stb_image.o: src/stb_image.cpp.o
+
+.PHONY : src/stb_image.o
+
+# target to build an object file
+src/stb_image.cpp.o:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.o
+.PHONY : src/stb_image.cpp.o
+
+src/stb_image.i: src/stb_image.cpp.i
+
+.PHONY : src/stb_image.i
+
+# target to preprocess a source file
+src/stb_image.cpp.i:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.i
+.PHONY : src/stb_image.cpp.i
+
+src/stb_image.s: src/stb_image.cpp.s
+
+.PHONY : src/stb_image.s
+
+# target to generate assembly for a file
+src/stb_image.cpp.s:
+	$(MAKE) -f CMakeFiles/STB_IMAGE.dir/build.make CMakeFiles/STB_IMAGE.dir/src/stb_image.cpp.s
+.PHONY : src/stb_image.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,12 +477,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... 1.getting_started__4.1.textures"
 	@echo "... 1.getting_started__3.6.shaders_z_exercise3"
+	@echo "... 1.getting_started__3.4.shaders_z_exercise1"
 	@echo "... 1.getting_started__3.5.shaders_z_exercise2"
 	@echo "... 1.getting_started__3.3.shaders_class"
 	@echo "... 1.getting_started__3.2.shaders_interpolation"
-	@echo "... 1.getting_started__3.4.shaders_z_exercise1"
 	@echo "... 1.getting_started__3.1.shaders_uniform"
+	@echo "... STB_IMAGE"
 	@echo "... rebuild_cache"
 	@echo "... GLAD"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o"
@@ -423,9 +505,15 @@ help:
 	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.i"
 	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.s"
+	@echo "... src/1.getting_started/4.1.textures/textures.o"
+	@echo "... src/1.getting_started/4.1.textures/textures.i"
+	@echo "... src/1.getting_started/4.1.textures/textures.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
+	@echo "... src/stb_image.o"
+	@echo "... src/stb_image.i"
+	@echo "... src/stb_image.s"
 .PHONY : help
 
 
