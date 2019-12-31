@@ -1,4 +1,5 @@
-/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir
-/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.1.shaders_uniform.dir
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.1.shaders_uniform.dir
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/GLAD.dir

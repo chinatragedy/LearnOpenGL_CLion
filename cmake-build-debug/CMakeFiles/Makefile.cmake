@@ -54,4 +54,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake"
+  "CMakeFiles/GLAD.dir/DependInfo.cmake"
   )

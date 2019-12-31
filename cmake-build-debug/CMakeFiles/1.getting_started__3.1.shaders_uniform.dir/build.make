@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangjinghao/MISC/LearnOpenGL_CLion
+CMAKE_SOURCE_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/flags.make
 
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/flags.make
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o: ../src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o -c /Users/zhangjinghao/MISC/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o -c /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp
 
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangjinghao/MISC/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp > CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp > CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.i
 
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangjinghao/MISC/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp -o CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp -o CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.s
 
 # Object files for target 1.getting_started__3.1.shaders_uniform
 1_getting_started__3_1_shaders_uniform_OBJECTS = \
@@ -81,8 +81,11 @@ CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.
 1.getting_started__3.1.shaders_uniform: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build.make
 1.getting_started__3.1.shaders_uniform: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
 1.getting_started__3.1.shaders_uniform: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
+1.getting_started__3.1.shaders_uniform: libGLAD.a
+1.getting_started__3.1.shaders_uniform: /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib
+1.getting_started__3.1.shaders_uniform: /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib
 1.getting_started__3.1.shaders_uniform: CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 1.getting_started__3.1.shaders_uniform"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 1.getting_started__3.1.shaders_uniform"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -95,6 +98,6 @@ CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean:
 .PHONY : CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/clean
 
 CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/depend:
-	cd /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangjinghao/MISC/LearnOpenGL_CLion /Users/zhangjinghao/MISC/LearnOpenGL_CLion /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/depend
 

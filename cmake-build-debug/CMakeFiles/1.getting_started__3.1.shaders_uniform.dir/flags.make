@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/local/Cellar/glew/2.1.0_1/include/GL -I/usr/local/Cellar/glfw/3.3/include/GLFW 
+CXX_INCLUDES = -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL -I/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW 
 

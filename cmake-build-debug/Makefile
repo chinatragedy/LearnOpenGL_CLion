@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/zhangjinghao/MISC/LearnOpenGL_CLion
+CMAKE_SOURCE_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/MISC/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -135,6 +135,19 @@ depend:
 1.getting_started__3.1.shaders_uniform/fast:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build.make CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/build
 .PHONY : 1.getting_started__3.1.shaders_uniform/fast
+
+#=============================================================================
+# Target rules for targets named GLAD
+
+# Build rule for target.
+GLAD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 GLAD
+.PHONY : GLAD
+
+# fast build rule for target.
+GLAD/fast:
+	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/build
+.PHONY : GLAD/fast
 
 src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o: src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o
 
@@ -190,6 +203,33 @@ src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build.make CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s
 .PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s
 
+src/glad.o: src/glad.c.o
+
+.PHONY : src/glad.o
+
+# target to build an object file
+src/glad.c.o:
+	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.o
+.PHONY : src/glad.c.o
+
+src/glad.i: src/glad.c.i
+
+.PHONY : src/glad.i
+
+# target to preprocess a source file
+src/glad.c.i:
+	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.i
+.PHONY : src/glad.c.i
+
+src/glad.s: src/glad.c.s
+
+.PHONY : src/glad.s
+
+# target to generate assembly for a file
+src/glad.c.s:
+	$(MAKE) -f CMakeFiles/GLAD.dir/build.make CMakeFiles/GLAD.dir/src/glad.c.s
+.PHONY : src/glad.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,12 +240,16 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 1.getting_started__3.1.shaders_uniform"
+	@echo "... GLAD"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.i"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.s"
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.i"
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.s"
+	@echo "... src/glad.o"
+	@echo "... src/glad.i"
+	@echo "... src/glad.s"
 .PHONY : help
 
 

@@ -4,27 +4,19 @@ project(LearnOpenGL_CLion)
 set(CMAKE_CXX_STANDARD 14)
 
 # 添加头文件
-set(GLEW_H /usr/local/Cellar/glew/2.1.0_1/include/GL)
-set(GLFW_H /usr/local/Cellar/glfw/3.3/include/GLFW)
-include_directories(${GLEW_H} ${GLFW_H})
+set(GLAD_H includes)
+set(GLEW_H includes/GL)
+set(GLFW_H includes/GLFW)
+include_directories(${GLAD_H} ${GLEW_H} ${GLFW_H} )
 
 # 添加目标链接
 set(GLEW_LINK /usr/local/Cellar/glew/2.1.0_1/lib/libGLEW.2.1.dylib)
 set(GLFW_LINK /usr/local/Cellar/glfw/3.3/lib/libglfw.3.dylib)
 link_libraries(${OPENGL} ${GLEW_LINK} ${GLFW_LINK})
 
-if (APPLE)
-    #    target_link_libraries(LearnOpenGL_CLion "-framework OpenGL")
-    #    target_link_libraries(LearnOpenGL_CLion "-framework GLUT")
-    SET(APPLE_LIBS ${COCOA_LIBRARY} ${IOKit_LIBRARY} ${OpenGL_LIBRARY} ${CoreVideo_LIBRARY})
-    SET(APPLE_LIBS ${APPLE_LIBS} ${GLFW3_LIBRARY} ${ASSIMP_LIBRARY})
-endif()
-
-# 执行编译命令
-#set(SOURCE_FILESs
-#        src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp
-#        src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.h)
-#add_executable(LearnOpenGL_CLion ${SOURCE_FILES})
+# first create relevant static libraries requried for other projects
+add_library(GLAD "src/glad.c")
+set(LIBS ${LIBS} GLAD)
 
 set(CHAPTERS
         1.getting_started
@@ -72,19 +64,9 @@ foreach(CHAPTER ${CHAPTERS})
                 "src/${CHAPTER}/${TARGET}/*.jpg"
                 )
         set(NAME "${CHAPTER}__${TARGET}")
-        add_executable(${NAME} ${SOURCE})
+        add_executable(${NAME} ${SOURCE} includes/glad/glad.h)
 
         target_link_libraries(${NAME} ${LIBS})
-
-#        if(WIN32)
-#            set_target_properties(${NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_SOURCE_DIR}/bin/${CHAPTER}")
-#        elseif(UNIX AND NOT APPLE)
-#            set_target_properties(${NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER}")
-#        elseif(APPLE)
-#            set_target_properties(${NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER}")
-#            set_target_properties(${NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_DEBUG "${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER}")
-#            set_target_properties(${NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY_RELEASE "${CMAKE_CURRENT_BINARY_DIR}/bin/${CHAPTER}")
-#        endif(WIN32)
 
         if (APPLE)
             target_link_libraries(${NAME}  "-framework OpenGL")
