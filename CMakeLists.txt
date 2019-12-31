@@ -18,6 +18,10 @@ link_libraries(${OPENGL} ${GLEW_LINK} ${GLFW_LINK})
 add_library(GLAD "src/glad.c")
 set(LIBS ${LIBS} GLAD)
 
+
+configure_file(configuration/root_directory.h.in configuration/root_directory.h)
+include_directories(${CMAKE_BINARY_DIR}/configuration)
+
 set(CHAPTERS
         1.getting_started
         )
