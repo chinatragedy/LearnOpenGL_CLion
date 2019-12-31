@@ -1,0 +1,1 @@
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/3.6.shaders_z_exercise3/3_6_shader.vs

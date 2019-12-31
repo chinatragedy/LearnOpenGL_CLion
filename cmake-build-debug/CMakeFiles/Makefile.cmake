@@ -52,7 +52,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.3.shaders_class.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake"
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
   )

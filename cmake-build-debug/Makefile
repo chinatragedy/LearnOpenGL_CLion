@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-bui
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 1.getting_started__3.6.shaders_z_exercise3
+
+# Build rule for target.
+1.getting_started__3.6.shaders_z_exercise3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.6.shaders_z_exercise3
+.PHONY : 1.getting_started__3.6.shaders_z_exercise3
+
+# fast build rule for target.
+1.getting_started__3.6.shaders_z_exercise3/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build
+.PHONY : 1.getting_started__3.6.shaders_z_exercise3/fast
+
+#=============================================================================
+# Target rules for targets named 1.getting_started__3.5.shaders_z_exercise2
+
+# Build rule for target.
+1.getting_started__3.5.shaders_z_exercise2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.5.shaders_z_exercise2
+.PHONY : 1.getting_started__3.5.shaders_z_exercise2
+
+# fast build rule for target.
+1.getting_started__3.5.shaders_z_exercise2/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build
+.PHONY : 1.getting_started__3.5.shaders_z_exercise2/fast
+
+#=============================================================================
+# Target rules for targets named 1.getting_started__3.3.shaders_class
+
+# Build rule for target.
+1.getting_started__3.3.shaders_class: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.3.shaders_class
+.PHONY : 1.getting_started__3.3.shaders_class
+
+# fast build rule for target.
+1.getting_started__3.3.shaders_class/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/build
+.PHONY : 1.getting_started__3.3.shaders_class/fast
+
+#=============================================================================
 # Target rules for targets named 1.getting_started__3.2.shaders_interpolation
 
 # Build rule for target.
@@ -122,6 +161,19 @@ depend:
 1.getting_started__3.2.shaders_interpolation/fast:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build.make CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build
 .PHONY : 1.getting_started__3.2.shaders_interpolation/fast
+
+#=============================================================================
+# Target rules for targets named 1.getting_started__3.4.shaders_z_exercise1
+
+# Build rule for target.
+1.getting_started__3.4.shaders_z_exercise1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 1.getting_started__3.4.shaders_z_exercise1
+.PHONY : 1.getting_started__3.4.shaders_z_exercise1
+
+# fast build rule for target.
+1.getting_started__3.4.shaders_z_exercise1/fast:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build
+.PHONY : 1.getting_started__3.4.shaders_z_exercise1/fast
 
 #=============================================================================
 # Target rules for targets named 1.getting_started__3.1.shaders_uniform
@@ -203,6 +255,114 @@ src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s:
 	$(MAKE) -f CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/build.make CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s
 .PHONY : src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.cpp.s
 
+src/1.getting_started/3.3.shaders_class/shader_class.o: src/1.getting_started/3.3.shaders_class/shader_class.cpp.o
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.o
+
+# target to build an object file
+src/1.getting_started/3.3.shaders_class/shader_class.cpp.o:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/src/1.getting_started/3.3.shaders_class/shader_class.cpp.o
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.cpp.o
+
+src/1.getting_started/3.3.shaders_class/shader_class.i: src/1.getting_started/3.3.shaders_class/shader_class.cpp.i
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.i
+
+# target to preprocess a source file
+src/1.getting_started/3.3.shaders_class/shader_class.cpp.i:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/src/1.getting_started/3.3.shaders_class/shader_class.cpp.i
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.cpp.i
+
+src/1.getting_started/3.3.shaders_class/shader_class.s: src/1.getting_started/3.3.shaders_class/shader_class.cpp.s
+
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.3.shaders_class/shader_class.cpp.s:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.3.shaders_class.dir/build.make CMakeFiles/1.getting_started__3.3.shaders_class.dir/src/1.getting_started/3.3.shaders_class/shader_class.cpp.s
+.PHONY : src/1.getting_started/3.3.shaders_class/shader_class.cpp.s
+
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.o: src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.o
+
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.o
+
+# target to build an object file
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.o:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.o
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.o
+
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.i: src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.i
+
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.i
+
+# target to preprocess a source file
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.i:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.i
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.i
+
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.s: src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.s
+
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.s:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/build.make CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.s
+.PHONY : src/1.getting_started/3.4.shaders_z_exercise1/shader_class.cpp.s
+
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.o: src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.o
+
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.o
+
+# target to build an object file
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.o:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.o
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.o
+
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.i: src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.i
+
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.i
+
+# target to preprocess a source file
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.i:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.i
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.i
+
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.s: src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.s
+
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.s:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/build.make CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.s
+.PHONY : src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.cpp.s
+
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.o: src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.o
+
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.o
+
+# target to build an object file
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.o:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.o
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.o
+
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.i: src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.i
+
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.i
+
+# target to preprocess a source file
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.i:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.i
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.i
+
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.s: src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s
+
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.s
+
+# target to generate assembly for a file
+src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s:
+	$(MAKE) -f CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/build.make CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s
+.PHONY : src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -236,10 +396,14 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... 1.getting_started__3.2.shaders_interpolation"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... 1.getting_started__3.6.shaders_z_exercise3"
+	@echo "... 1.getting_started__3.5.shaders_z_exercise2"
+	@echo "... 1.getting_started__3.3.shaders_class"
+	@echo "... 1.getting_started__3.2.shaders_interpolation"
+	@echo "... 1.getting_started__3.4.shaders_z_exercise1"
 	@echo "... 1.getting_started__3.1.shaders_uniform"
+	@echo "... rebuild_cache"
 	@echo "... GLAD"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.1.shaders_uniform/shaders_uniform.i"
@@ -247,6 +411,18 @@ help:
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.o"
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.i"
 	@echo "... src/1.getting_started/3.2.shaders_interpolation/shaders_uniform.s"
+	@echo "... src/1.getting_started/3.3.shaders_class/shader_class.o"
+	@echo "... src/1.getting_started/3.3.shaders_class/shader_class.i"
+	@echo "... src/1.getting_started/3.3.shaders_class/shader_class.s"
+	@echo "... src/1.getting_started/3.4.shaders_z_exercise1/shader_class.o"
+	@echo "... src/1.getting_started/3.4.shaders_z_exercise1/shader_class.i"
+	@echo "... src/1.getting_started/3.4.shaders_z_exercise1/shader_class.s"
+	@echo "... src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.o"
+	@echo "... src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.i"
+	@echo "... src/1.getting_started/3.5.shaders_z_exercise2/shaders_uniform.s"
+	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.o"
+	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.i"
+	@echo "... src/1.getting_started/3.6.shaders_z_exercise3/shaders_uniform.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"

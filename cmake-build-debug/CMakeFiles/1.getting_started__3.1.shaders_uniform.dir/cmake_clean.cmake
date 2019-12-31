@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "1.getting_started__3.1.shaders_uniform"
-  "1.getting_started__3.1.shaders_uniform.pdb"
   "CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/src/1.getting_started/3.1.shaders_uniform/shaders_uniform.cpp.o"
+  "bin/1.getting_started/1.getting_started__3.1.shaders_uniform"
+  "bin/1.getting_started/1.getting_started__3.1.shaders_uniform.pdb"
 )
 
 # Per-language clean rules from dependency scanning.
