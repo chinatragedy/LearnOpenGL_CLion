@@ -17,11 +17,271 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__5.1.transformations">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__5.1.transformations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__5.1.transformations"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__5.1.transformations/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__5.1.transformations" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__5.1.transformations/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.5.textures_exercise4">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.5.textures_exercise4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.5.textures_exercise4"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.5.textures_exercise4/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.5.textures_exercise4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.5.textures_exercise4/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.4.textures_exercise3">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.4.textures_exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.4.textures_exercise3"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.4.textures_exercise3/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.4.textures_exercise3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.4.textures_exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="STB_IMAGE/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.3.textures_exercise2">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.3.textures_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.3.textures_exercise2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.3.textures_exercise2/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.3.textures_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.3.textures_exercise2/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -77,6 +337,56 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="1.getting_started__3.5.shaders_z_exercise2">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.5.shaders_z_exercise2"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__3.5.shaders_z_exercise2/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.5.shaders_z_exercise2/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="1.getting_started__3.6.shaders_z_exercise3">
 				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.6.shaders_z_exercise3" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
@@ -122,6 +432,106 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.6.shaders_z_exercise3/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__3.3.shaders_class">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.3.shaders_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.3.shaders_class"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__3.3.shaders_class/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.3.shaders_class" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.3.shaders_class/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.2.textures_combined">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.2.textures_combined" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.2.textures_combined"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="1.getting_started__4.2.textures_combined/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__4.2.textures_combined" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
+					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__4.2.textures_combined/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -177,8 +587,8 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1.getting_started__3.5.shaders_z_exercise2">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2" prefix_auto="0" extension_auto="0"/>
+			<Target title="1.getting_started__6.1.coordinate_systems">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__6.1.coordinate_systems" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -196,14 +606,14 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.5.shaders_z_exercise2"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__6.1.coordinate_systems"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="1.getting_started__3.5.shaders_z_exercise2/fast">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.5.shaders_z_exercise2" prefix_auto="0" extension_auto="0"/>
+			<Target title="1.getting_started__6.1.coordinate_systems/fast">
+				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__6.1.coordinate_systems" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -221,57 +631,7 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.5.shaders_z_exercise2/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1.getting_started__3.3.shaders_class">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.3.shaders_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.3.shaders_class"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="1.getting_started__3.3.shaders_class/fast">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/bin/1.getting_started/1.getting_started__3.3.shaders_class" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__3.3.shaders_class/fast"/>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 1.getting_started__6.1.coordinate_systems/fast"/>
 					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -377,66 +737,6 @@
 					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="STB_IMAGE">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="STB_IMAGE/fast">
-				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/libSTB_IMAGE.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="2"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GL"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/GLFW"/>
-					<Add directory="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/configuration"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
-					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 STB_IMAGE/fast"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="GLAD">
 				<Option output="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug/libGLAD.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/cmake-build-debug"/>
@@ -489,29 +789,47 @@
 			</Target>
 		</Build>
 		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/glUtils/shader.h">
+			<Option target="1.getting_started__5.1.transformations"/>
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
 			<Option target="1.getting_started__4.1.textures"/>
-			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
-			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
 			<Option target="1.getting_started__3.5.shaders_z_exercise2"/>
+			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
 			<Option target="1.getting_started__3.3.shaders_class"/>
+			<Option target="1.getting_started__4.2.textures_combined"/>
+			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
 			<Option target="1.getting_started__3.2.shaders_interpolation"/>
 			<Option target="1.getting_started__3.1.shaders_uniform"/>
 		</Unit>
 		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/glUtils/stb_image.h">
+			<Option target="1.getting_started__5.1.transformations"/>
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
 			<Option target="1.getting_started__4.1.textures"/>
-			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
-			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
 			<Option target="1.getting_started__3.5.shaders_z_exercise2"/>
+			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
 			<Option target="1.getting_started__3.3.shaders_class"/>
+			<Option target="1.getting_started__4.2.textures_combined"/>
+			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
 			<Option target="1.getting_started__3.2.shaders_interpolation"/>
 			<Option target="1.getting_started__3.1.shaders_uniform"/>
 		</Unit>
 		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/includes/glad/glad.h">
+			<Option target="1.getting_started__5.1.transformations"/>
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
 			<Option target="1.getting_started__4.1.textures"/>
-			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
-			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
 			<Option target="1.getting_started__3.5.shaders_z_exercise2"/>
+			<Option target="1.getting_started__3.6.shaders_z_exercise3"/>
 			<Option target="1.getting_started__3.3.shaders_class"/>
+			<Option target="1.getting_started__4.2.textures_combined"/>
+			<Option target="1.getting_started__3.4.shaders_z_exercise1"/>
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
 			<Option target="1.getting_started__3.2.shaders_interpolation"/>
 			<Option target="1.getting_started__3.1.shaders_uniform"/>
 		</Unit>
@@ -577,6 +895,60 @@
 		</Unit>
 		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.1.textures/textures.cpp">
 			<Option target="1.getting_started__4.1.textures"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.2.textures_combined/texture_4_2.fs">
+			<Option target="1.getting_started__4.2.textures_combined"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.2.textures_combined/texture_4_2.vs">
+			<Option target="1.getting_started__4.2.textures_combined"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.2.textures_combined/textures.cpp">
+			<Option target="1.getting_started__4.2.textures_combined"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.3.textures_exercise2/texture_4_3.fs">
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.3.textures_exercise2/texture_4_3.vs">
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.3.textures_exercise2/textures.cpp">
+			<Option target="1.getting_started__4.3.textures_exercise2"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.4.textures_exercise3/texture_4_4.fs">
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.4.textures_exercise3/texture_4_4.vs">
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.4.textures_exercise3/textures.cpp">
+			<Option target="1.getting_started__4.4.textures_exercise3"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.5.textures_exercise4/texture_4_5.fs">
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.5.textures_exercise4/texture_4_5.vs">
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.5.textures_exercise4/textures.cpp">
+			<Option target="1.getting_started__4.5.textures_exercise4"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/5.1.transformations/transform_5_1.fs">
+			<Option target="1.getting_started__5.1.transformations"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/5.1.transformations/transform_5_1.vs">
+			<Option target="1.getting_started__5.1.transformations"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/5.1.transformations/transformations.cpp">
+			<Option target="1.getting_started__5.1.transformations"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/6.1.coordinate_systems/coordinateSystems.cpp">
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/6.1.coordinate_systems/transform_6_1.fs">
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
+		</Unit>
+		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/6.1.coordinate_systems/transform_6_1.vs">
+			<Option target="1.getting_started__6.1.coordinate_systems"/>
 		</Unit>
 		<Unit filename="/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/glad.c">
 			<Option target="GLAD"/>

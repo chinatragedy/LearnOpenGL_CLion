@@ -54,13 +54,19 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/1.getting_started__5.1.transformations.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__4.5.textures_exercise4.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__4.4.textures_exercise3.dir/DependInfo.cmake"
+  "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__4.3.textures_exercise2.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__4.1.textures.dir/DependInfo.cmake"
-  "CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/DependInfo.cmake"
-  "CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.5.shaders_z_exercise2.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.6.shaders_z_exercise3.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.3.shaders_class.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__4.2.textures_combined.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__3.4.shaders_z_exercise1.dir/DependInfo.cmake"
+  "CMakeFiles/1.getting_started__6.1.coordinate_systems.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.2.shaders_interpolation.dir/DependInfo.cmake"
   "CMakeFiles/1.getting_started__3.1.shaders_uniform.dir/DependInfo.cmake"
-  "CMakeFiles/STB_IMAGE.dir/DependInfo.cmake"
   "CMakeFiles/GLAD.dir/DependInfo.cmake"
   )

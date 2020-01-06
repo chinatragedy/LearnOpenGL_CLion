@@ -1,0 +1,1 @@
+/Users/zhangjinghao/_MiscProjects/LearnOpenGL_CLion/src/1.getting_started/4.2.textures_combined/texture_4_2.fs
